@@ -6,7 +6,7 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="https://github.com/copperheados/"
-           revision="refs/tags/OPM4.171019.021.P1.2018.09.18.02" />
+           revision="refs/tags/OPM4.171019.021.P1.2018.11.11.05" />
   <remote  name="zx2c4"
            fetch="https://git.zx2c4.com/"
            revision="refs/heads/master" />
@@ -332,7 +332,7 @@
   <project path="external/toybox" name="platform/external/toybox" groups="pdk" />
   <project path="external/tpm2" name="platform/external/tpm2" groups="pdk" />
   <project path="external/trappy" name="platform/external/trappy" groups="pdk" />
-  <project path="external/tremolo" name="platform/external/tremolo" groups="pdk" />
+  <project path="external/tremolo" name="platform_external_tremolo" groups="pdk" remote="github" />
   <project path="external/unicode" name="platform/external/unicode" groups="pdk" />
   <project path="external/universal-tween-engine" name="platform/external/universal-tween-engine" />
   <project path="external/v8" name="platform/external/v8" groups="pdk" />
