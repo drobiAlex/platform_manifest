@@ -106,4 +106,9 @@
   <project path="packages/apps/Updater" name="packages/apps/Updater" remote="gitlab" />
   <project path="script" name="script" remote="gitlab" />
 
+  <!-- Begin WireGuard -->
+  <remote name="zx2c4"
+          fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="WireGuard" path="kernel/wireguard" revision="96cfdd908d6e783c818232513950b74a68ac24e7" sync-s="true" />
+
 </manifest>
