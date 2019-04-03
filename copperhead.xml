@@ -18,9 +18,7 @@
   <remove-project name="device/google/wahoo" />
   <remove-project name="platform/external/conscrypt" />
   <remove-project name="platform/external/clang" />
-  <remove-project name="platform/external/libexif" />
   <remove-project name="platform/external/llvm" />
-  <remove-project name="platform/external/sqlite" />
   <remove-project name="platform/frameworks/ex" />
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/frameworks/native" />
@@ -69,9 +67,7 @@
   <project path="device/google/wahoo" name="device/google/wahoo" remote="gitlab" />
   <project path="external/conscrypt" name="external/conscrypt" remote="gitlab" />
   <project path="external/clang" name="external/clang" remote="gitlab" />
-  <project path="external/libexif" name="external/libexif" remote="gitlab" />
   <project path="external/llvm" name="external/llvm" remote="gitlab" />
-  <project path="external/sqlite" name="external/sqlite" remote="gitlab" />
   <project path="frameworks/ex" name="frameworks/ex" remote="gitlab" />
   <project path="frameworks/base" name="frameworks/base" remote="gitlab" />
   <project path="frameworks/native" name="frameworks/native" remote="gitlab" />
