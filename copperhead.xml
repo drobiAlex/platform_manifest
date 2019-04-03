@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="gitlab"
-           fetch="https://gitlab.com/copperheadsec/os-src/"
+           fetch="ssh://git@gitlab.com/copperheadsec/os-src/"
            revision="refs/tags/PQ2A.190305.002.2019.03.31.04" />
 
   <!-- Remove the AOSP versions of these projects -->
