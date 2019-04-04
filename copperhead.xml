@@ -109,6 +109,6 @@
   <!-- Begin WireGuard -->
   <remote name="zx2c4"
           fetch="https://git.zx2c4.com/" />
-  <project remote="zx2c4" name="WireGuard" path="kernel/wireguard" revision="96cfdd908d6e783c818232513950b74a68ac24e7" sync-s="true" />
+  <project remote="zx2c4" name="WireGuard" path="kernel/wireguard" revision="refs/tags/0.0.20190227" sync-s="true" />
 
 </manifest>
