@@ -2,6 +2,7 @@
 <manifest>
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com/copperheadsec/os-src/"
+           review="https://review.copperhead.co/"
            revision="pie" />
 
   <!-- Remove the AOSP versions of these projects -->
