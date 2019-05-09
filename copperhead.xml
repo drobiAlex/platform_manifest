@@ -102,6 +102,7 @@
   <project path="external/talkback" name="external/talkback" remote="gitlab" />
   <project path="kernel/google/marlin" name="kernel/google/marlin" remote="gitlab" />
   <project path="kernel/google/wahoo" name="kernel/google/wahoo" remote="gitlab" />
+  <project path="manifest" name="manifest" remote="gitlab" />
   <project path="packages/apps/F-Droid/privileged-extension" name="packages/apps/F-Droid/privileged-extension" remote="gitlab" />
   <project path="packages/apps/PdfViewer" name="packages/apps/PdfViewer" remote="gitlab" />
   <project path="packages/apps/Updater" name="packages/apps/Updater" remote="gitlab" />
