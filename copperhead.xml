@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="gitlab"
-           fetch=".."
+           fetch="ssh://git@gitlab.com/copperheadsec/os-src/"
            review="review.copperhead.co"
            revision="pie" />
 
