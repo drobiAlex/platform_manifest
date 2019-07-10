@@ -94,6 +94,7 @@
 
   <!-- Begin Copperhead specific projects -->
   <project path="branding" name="branding" remote="gitlab" />
+  <project path="external/barcodescanner" name="external/barcodescanner" remote="gitlab" />
   <project path="external/chromium" name="external/chromium" remote="gitlab" />
   <project path="external/Etar-Calendar" name="external/Etar-Calendar" remote="gitlab" />
   <project path="external/F-Droid" name="external/F-Droid" groups="pdk-fs" remote="gitlab" />
@@ -106,7 +107,9 @@
   <project path="manifest" name="manifest" remote="gitlab" />
   <project path="packages/apps/F-Droid/privileged-extension" name="packages/apps/F-Droid/privileged-extension" remote="gitlab" />
   <project path="packages/apps/PdfViewer" name="packages/apps/PdfViewer" remote="gitlab" />
+  <project path="packages/apps/SetupWizard" name="packages/apps/SetupWizard" remote="gitlab" />
   <project path="packages/apps/Updater" name="packages/apps/Updater" remote="gitlab" />
+  <project path="packages/services/LicenseChecker" name="packages/services/LicenseChecker" remote="gitlab" />
   <project path="script" name="script" remote="gitlab" />
   <project path="vendor/android-prepare-vendor" name="vendor/android-prepare-vendor" remote="gitlab" />
 
