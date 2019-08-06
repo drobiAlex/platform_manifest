@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="gitlab"
+           fetch="ssh://git@gitlab.com/copperheadsec/os-src/"
+           review="review.copperhead.co"
+           revision="pie" />
+
+  <!-- Begin Copperhead AOSP forks -->
+  <project path="art" name="art" remote="gitlab" />
+  <project path="bionic" name="bionic" remote="gitlab" />
+  <project path="bootable/recovery" name="bootable/recovery" remote="gitlab" />
+  <project path="build/kati" name="build/kati" remote="gitlab" />
+  <project path="build/soong" name="build/soong" remote="gitlab" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="build/make" name="build/make" remote="gitlab" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="device/common" name="device/common" remote="gitlab" />
+  <project path="device/google/marlin" name="device/google/marlin" remote="gitlab" />
+  <project path="device/google/muskie" name="device/google/muskie" remote="gitlab" />
+  <project path="device/google/taimen" name="device/google/taimen" remote="gitlab" />
+  <project path="device/google/wahoo" name="device/google/wahoo" remote="gitlab" />
+  <project path="external/conscrypt" name="external/conscrypt" remote="gitlab" />
+  <project path="external/clang" name="external/clang" remote="gitlab" />
+  <project path="external/llvm" name="external/llvm" remote="gitlab" />
+  <project path="frameworks/ex" name="frameworks/ex" remote="gitlab" />
+  <project path="frameworks/base" name="frameworks/base" remote="gitlab" />
+  <project path="frameworks/native" name="frameworks/native" remote="gitlab" />
+  <project path="frameworks/opt/net/wifi" name="frameworks/opt/net/wifi" remote="gitlab" />
+  <project path="libcore" name="libcore" remote="gitlab" />
+  <project path="packages/apps/Bluetooth" name="packages/apps/Bluetooth" remote="gitlab" />
+  <project path="packages/apps/Camera2" name="packages/apps/Camera2" remote="gitlab" />
+  <project path="packages/apps/Contacts" name="packages/apps/Contacts" remote="gitlab" />
+  <project path="packages/apps/ExactCalculator" name="packages/apps/ExactCalculator" remote="gitlab" />
+  <project path="packages/apps/Gallery2" name="packages/apps/Gallery2" remote="gitlab" />
+  <project path="packages/apps/Launcher3" name="packages/apps/Launcher3" remote="gitlab" />
+  <project path="packages/apps/Nfc" name="packages/apps/Nfc" remote="gitlab" />
+  <project path="packages/apps/PackageInstaller" name="packages/apps/PackageInstaller" remote="gitlab" />
+  <project path="packages/apps/QuickSearchBox" name="packages/apps/QuickSearchBox" remote="gitlab" />
+  <project path="packages/apps/Settings" name="packages/apps/Settings" remote="gitlab" />
+  <project path="packages/inputmethods/LatinIME" name="packages/inputmethods/LatinIME" remote="gitlab" />
+  <project path="packages/providers/DownloadProvider" name="packages/providers/DownloadProvider" remote="gitlab" />
+  <project path="packages/services/Telephony" name="packages/services/Telephony" remote="gitlab" />
+  <project path="prebuilts/clang/host/linux-x86" name="prebuilts/clang/host/linux-x86" remote="gitlab" />
+  <project path="system/core" name="system/core" remote="gitlab" />
+  <project path="system/extras" name="system/extras" remote="gitlab" />
+  <project path="system/sepolicy" name="system/sepolicy" remote="gitlab" />
+
+  <!-- Begin Copperhead specific projects -->
+  <project path="branding" name="branding" remote="gitlab" />
+  <project path="external/barcodescanner" name="external/barcodescanner" remote="gitlab" />
+  <project path="external/chromium" name="external/chromium" remote="gitlab" />
+  <project path="external/Etar-Calendar" name="external/Etar-Calendar" remote="gitlab" />
+  <project path="external/F-Droid" name="external/F-Droid" groups="pdk-fs" remote="gitlab" />
+  <project path="external/offline-calendar" name="external/offline-calendar" remote="gitlab" />
+  <project path="external/privacy-friendly-netmonitor" name="external/privacy-friendly-netmonitor" remote="gitlab" />
+  <project path="external/Silence" name="external/Silence" remote="gitlab"/>
+  <project path="external/talkback" name="external/talkback" remote="gitlab" />
+  <project path="kernel/google/marlin" name="kernel/google/marlin" remote="gitlab" />
+  <project path="kernel/google/wahoo" name="kernel/google/wahoo" remote="gitlab" />
+  <project path="manifest" name="manifest" remote="gitlab" />
+  <project path="packages/apps/F-Droid/privileged-extension" name="packages/apps/F-Droid/privileged-extension" remote="gitlab" />
+  <project path="packages/apps/PdfViewer" name="packages/apps/PdfViewer" remote="gitlab" />
+  <project path="packages/apps/SetupWizard" name="packages/apps/SetupWizard" remote="gitlab" />
+  <project path="packages/apps/Updater" name="packages/apps/Updater" remote="gitlab" />
+  <project path="packages/services/LicenseChecker" name="packages/services/LicenseChecker" remote="gitlab" />
+  <project path="script" name="script" remote="gitlab" />
+  <project path="vendor/android-prepare-vendor" name="vendor/android-prepare-vendor" remote="gitlab" />
+
+  <!-- Begin WireGuard -->
+  <remote name="zx2c4"
+          fetch="https://git.zx2c4.com/" />
+  <project remote="zx2c4" name="WireGuard" path="kernel/wireguard" revision="refs/tags/0.0.20190227" sync-s="true" />
+
+</manifest>
