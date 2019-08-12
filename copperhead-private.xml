@@ -3,7 +3,7 @@
   <remote  name="gitlab"
            fetch="ssh://git@gitlab.com/copperheadsec/os-src/"
            review="review.copperhead.co"
-           revision="pie" />
+           revision="refs/heads/pie" />
 
   <!-- Begin Copperhead AOSP forks -->
   <project path="art" name="art" remote="gitlab" />

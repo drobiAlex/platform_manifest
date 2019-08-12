@@ -2,7 +2,7 @@
 <manifest>
   <remote  name="github"
            fetch="https://github.com/copperheados/"
-           revision="pie" />
+           revision="refs/heads/pie" />
 
   <!-- Begin Copperhead AOSP forks -->
   <project path="art" name="platform_art" remote="github" />
