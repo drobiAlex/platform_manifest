@@ -68,7 +68,6 @@
   <project path="manifest" name="platform_manifest" remote="github" />
   <project path="packages/apps/F-Droid/privileged-extension" name="platform_packages_apps_F-Droid_privileged-extension" remote="github" />
   <project path="packages/apps/PdfViewer" name="platform_packages_apps_PdfViewer" remote="github" />
-  <project path="packages/apps/SetupWizard" name="platform_packages_apps_SetupWizard" remote="github" />
   <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="github" />
   <project path="script" name="script" remote="github" />
   <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
