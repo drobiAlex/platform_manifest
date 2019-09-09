@@ -1,76 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote  name="github"
-           fetch="https://github.com/copperheados/"
+           fetch="https://github.com/drobiAlex/"
            revision="refs/heads/pie" />
 
   <!-- Begin Copperhead AOSP forks -->
-  <project path="art" name="platform_art" remote="github" />
-  <project path="bionic" name="platform_bionic" remote="github" />
-  <project path="bootable/recovery" name="platform_bootable_recovery" remote="github" />
-  <project path="build/kati" name="platform_build_kati" remote="github" />
-  <project path="build/soong" name="platform_build_soong" remote="github" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
-  <project path="build/make" name="platform_build_make" remote="github" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-  <project path="device/common" name="device_common" remote="github" />
-  <project path="device/google/marlin" name="device_google_marlin" remote="github" />
-  <project path="device/google/muskie" name="device_google_muskie" remote="github" />
-  <project path="device/google/taimen" name="device_google_taimen" remote="github" />
-  <project path="device/google/wahoo" name="device_google_wahoo" remote="github" />
-  <project path="external/conscrypt" name="platform_external_conscrypt" remote="github" />
-  <project path="external/clang" name="platform_external_clang" remote="github" />
-  <project path="external/llvm" name="platform_external_llvm" remote="github" />
-  <project path="frameworks/ex" name="platform_frameworks_ex" remote="github" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="github" />
-  <project path="frameworks/native" name="platform_frameworks_native" remote="github" />
-  <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" remote="github" />
-  <project path="libcore" name="platform_libcore" remote="github" />
-  <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" remote="github" />
-  <project path="packages/apps/Camera2" name="platform_packages_apps_Camera2" remote="github" />
-  <project path="packages/apps/Contacts" name="platform_packages_apps_Contacts" remote="github" />
-  <project path="packages/apps/ExactCalculator" name="platform_packages_apps_ExactCalculator" remote="github" />
-  <project path="packages/apps/Gallery2" name="platform_packages_apps_Gallery2" remote="github" />
-  <project path="packages/apps/Launcher3" name="platform_packages_apps_Launcher3" remote="github" />
-  <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" remote="github" />
-  <project path="packages/apps/PackageInstaller" name="platform_packages_apps_PackageInstaller" remote="github" />
-  <project path="packages/apps/QuickSearchBox" name="platform_packages_apps_QuickSearchBox" remote="github" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="github" />
-  <project path="packages/inputmethods/LatinIME" name="platform_packages_inputmethods_LatinIME" remote="github" />
-  <project path="packages/providers/DownloadProvider" name="platform_packages_providers_DownloadProvider" remote="github" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="github" />
-  <project path="prebuilts/clang/host/linux-x86" name="platform_prebuilts_clang_host_linux-x86" remote="github" />
-  <project path="system/core" name="platform_system_core" remote="github" />
-  <project path="system/extras" name="platform_system_extras" remote="github" />
-  <project path="system/sepolicy" name="platform_system_sepolicy" remote="github" />
-
-  <!-- Begin Copperhead specific projects -->
-  <project path="branding" name="branding" remote="github" />
-  <project path="external/barcodescanner" name="platform_external_barcodescanner" remote="github" />
-  <project path="external/chromium" name="platform_external_chromium" remote="github" />
-  <project path="external/Etar-Calendar" name="platform_external_Etar-Calendar" remote="github" />
-  <project path="external/F-Droid" name="platform_external_F-Droid" groups="pdk-fs" remote="github" />
-  <project path="external/offline-calendar" name="platform_external_offline-calendar" remote="github" />
-  <project path="external/privacy-friendly-netmonitor" name="platform_external_privacy-friendly-netmonitor" remote="github" />
-  <project path="external/Silence" name="platform_external_Silence" remote="github"/>
-  <project path="external/talkback" name="platform_external_talkback" remote="github" />
-  <project path="kernel/google/marlin" name="kernel_google_marlin" remote="github" />
-  <project path="kernel/google/wahoo" name="kernel_google_wahoo" remote="github" />
-  <project path="manifest" name="platform_manifest" remote="github" />
-  <project path="packages/apps/F-Droid/privileged-extension" name="platform_packages_apps_F-Droid_privileged-extension" remote="github" />
-  <project path="packages/apps/PdfViewer" name="platform_packages_apps_PdfViewer" remote="github" />
-  <project path="packages/apps/Updater" name="platform_packages_apps_Updater" remote="github" />
   <project path="script" name="script" remote="github" />
-  <project path="vendor/android-prepare-vendor" name="android-prepare-vendor" remote="github" />
 
   <!-- Begin WireGuard -->
   <remote name="zx2c4"
